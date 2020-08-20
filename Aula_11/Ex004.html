@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h2>Sistema de Nacionalidade</h2>
+    <span>País: </span> <input type="text" id="p1">
+    <input type="button" value="Verificar" onclick="Nacionalidade()">
+    <p>Resultado:</p>
+    <div id="res"> </div>
+
+
+    <script>
+        function Nacionalidade(){
+            var temp = window.document.getElementById('p1');
+            var res = window.document.getElementById('res');
+            var country = (temp.value.toUpperCase());
+            if(country != 'BRASIL'){
+                res.innerHTML = "Você é estrangeiro";                
+            }
+            else{
+                res.innerHTML = "Você é brasileiro";   
+            } 
+        }
+    </script>
+
+
+</body>
+</html>

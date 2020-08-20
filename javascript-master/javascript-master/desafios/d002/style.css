@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+
+input[type='button']{
+    width: 150px;
+    padding: 20px;
+}

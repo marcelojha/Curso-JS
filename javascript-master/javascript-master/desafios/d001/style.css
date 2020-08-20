@@ -1,0 +1,9 @@
+
+body{
+    background-color: rgba(80, 80, 214, 0.788);
+}
+
+input[type='button']{
+    width: 100px;
+    padding: 20px 5px 20px 5px;
+}

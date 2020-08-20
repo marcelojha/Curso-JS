@@ -1,0 +1,60 @@
+*{
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: black;
+}
+body{
+    background-color: rgb(80, 80, 224);
+}
+
+
+.clear{
+    clear: both;
+}
+div.container{
+    width: 40%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px 2%;
+    background-color: white;
+}
+header{
+    padding-top: 40px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+header h1{
+    font-size: 20px;
+}
+
+
+section#corpo input[type="number"]{
+    width: 50%;
+    max-width: 150px;
+    float: left;
+    color: black;
+    vertical-align: middle;
+    position: relative;
+    top: -4px;
+}
+
+section#corpo div.sexo_container{
+    margin-top: 10px;
+}
+
+section#corpo input[type="button"]{
+    color: black;
+    margin-top: 14px;
+}
+
+section#corpo span.form{
+    margin-right: 10px;
+    float: left;
+    vertical-align: middle;
+}
+
+footer h5{
+    color: white;
+    text-align: center;
+}
